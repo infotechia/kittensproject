@@ -14,6 +14,6 @@ Resources:
         - cfn-sec-group
       Tags:
         - Key: Name
-          Value: `Web Server of StackName`
+          Value: Web Server of StackName
 
   

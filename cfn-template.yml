@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Description: |
+  This template launches Kittens Carousel Static Website deployed on AWS EC2 using Cloudformation.
+
+Resources: 
+  CFNInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-08e4e35cccc6189f4
+      InstanceType: t2.micro
+      KeyName: firstkey # Please use your own key name without .pem
+      SecurityGroups: 
+        - cfn-sec-group
+      Tags:
+        - Key: Name
+          Value: `Web Server of StackName`
+
+  

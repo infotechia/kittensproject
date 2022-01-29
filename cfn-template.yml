@@ -5,7 +5,6 @@ Resources:
   myec2:
     Type: AWS::EC2::Instance
     Properties:
-<<<<<<< HEAD
       ImageId: "ami-08e4e35cccc6189f4"
       InstanceType: "t2.micro"
       SecurityGroups:

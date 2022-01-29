@@ -5,6 +5,7 @@ Resources:
   myec2:
     Type: AWS::EC2::Instance
     Properties:
+<<<<<<< HEAD
       ImageId: "ami-08e4e35cccc6189f4"
       InstanceType: "t2.micro"
       SecurityGroups:
@@ -39,3 +40,15 @@ Resources:
           FromPort: 80
           IpProtocol: "tcp"
           ToPort: 80
+=======
+      ImageId: ami-08e4e35cccc6189f4
+      InstanceType: t2.micro
+      KeyName: firstkey # Please use your own key name without .pem
+      SecurityGroups: 
+        - cfn-sec-group
+      Tags:
+        - Key: Name
+          Value: Web Server of StackName
+
+  
+>>>>>>> a2679c6ffdf22c56fc9b17a3aba2d29dd7526ee4

@@ -23,7 +23,7 @@ Resources:
             wget https://raw.githubusercontent.com/infotechia/kittensproject/main/static-web/cat0.jpg
             wget https://raw.githubusercontent.com/infotechia/kittensproject/main/static-web/cat1.jpg
             wget https://raw.githubusercontent.com/infotechia/kittensproject/main/static-web/cat2.jpg
-
+            wget https://raw.githubusercontent.com/infotechia/kittensproject/main/static-web/cat3.png
 
   mysecgroup:
     Type: AWS::EC2::SecurityGroup
